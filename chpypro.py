@@ -28,12 +28,14 @@ E or e for exit""")
             dep=int(input("Enter the amount to be deposited:"))
             amount+=dep
             print("-"*30)
+            print("Amount deposited successfully...")
             print("Current balance:",amount)
             print("*"*60)
         elif com in "Ww":
             dep=int(input("Enter the amount to be withdrawn:"))
             amount-=dep
             print("-"*30)
+            print("Amount withdrawn successfully...")
             print("Current balance:",amount)
             print("*"*60)
         elif com in "Cc":
